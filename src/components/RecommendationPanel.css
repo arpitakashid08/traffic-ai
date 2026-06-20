@@ -1,0 +1,17 @@
+.recommendation-panel {
+  padding: 10px;
+}
+
+.recommendation-item {
+  background: white;
+
+  padding: 12px;
+
+  margin-bottom: 12px;
+
+  border-left: 5px solid #7bb4b7;
+
+  border-radius: 8px;
+
+  font-size: 18px;
+}

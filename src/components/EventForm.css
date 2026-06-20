@@ -1,0 +1,64 @@
+.time-buttons {
+  display: flex;
+  margin-top: 8px;
+}
+
+.time-btn {
+  flex: 1;
+  padding: 10px;
+
+  background: #f4efe4;
+
+  border: 2px solid #555;
+
+  cursor: pointer;
+
+  font-family: inherit;
+  font-weight: bold;
+}
+
+.time-btn:not(:last-child) {
+  border-right: none;
+}
+
+.time-btn.active {
+  background: #77b5b5;
+  color: white;
+}
+.predict-btn {
+  background: #7db5b7;
+  border: 2px solid #555;
+  padding: 10px 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 12px;
+  transition: 0.2s;
+}
+
+.predict-btn:hover {
+  background: #6ca4a6;
+  transform: translateY(-1px);
+}
+
+.predict-btn:active {
+  transform: translateY(1px);
+}
+.form-group {
+  margin-bottom: 14px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.form-group select,
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #777;
+  border-radius: 4px;
+  background: #f5f2ea;
+}

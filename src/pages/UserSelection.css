@@ -1,0 +1,27 @@
+.selection-page{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#d9e5d6;
+}
+
+.selection-card{
+  width:500px;
+  background:#e8e2d2;
+  padding:40px;
+  border-radius:20px;
+  text-align:center;
+}
+
+.selection-card button{
+  width:100%;
+  margin-top:15px;
+  padding:15px;
+  border:none;
+  background:#7bb4b7;
+  color:white;
+  font-size:18px;
+  cursor:pointer;
+  border-radius:10px;
+}

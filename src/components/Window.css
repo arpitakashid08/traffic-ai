@@ -1,0 +1,109 @@
+.window {
+  background: #f3efe4;
+  border: 2px solid #555;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 0px #999;
+}
+
+.window-header {
+  height: 42px;
+  background: #77b5b5;
+  border-bottom: 2px solid #555;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 12px;
+}
+
+.window-title {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.step-badge {
+  width: 24px;
+  height: 24px;
+
+  border-radius: 50%;
+
+  background: #f0d36b;
+  border: 1px solid #555;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 12px;
+}
+
+.window-controls {
+  display: flex;
+  gap: 4px;
+}
+
+.window-controls span {
+  width: 12px;
+  height: 12px;
+
+  border: 1px solid #444;
+  background: #e8e2d2;
+}
+
+.close-btn {
+  background: #e48a6a !important;
+}
+
+.window-body {
+  padding: 18px;
+}
+.window {
+  background: #f5f0e6;
+  border: 3px solid #666;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 3px 3px 0px #999;
+}
+
+.window-header {
+  background: #7bb4b7;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px 14px;
+
+  border-bottom: 2px solid #666;
+}
+
+.window-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.window-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.window-controls span {
+  width: 14px;
+  height: 14px;
+
+  border: 1px solid #666;
+
+  background: #f5f0e6;
+}
+
+.close-btn {
+  background: #e78b74 !important;
+}
+
+.window-body {
+  padding: 20px;
+}

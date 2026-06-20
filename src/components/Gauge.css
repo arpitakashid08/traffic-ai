@@ -1,0 +1,61 @@
+.gauge-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.gauge-circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+
+  background: conic-gradient(
+    #8bc48a 0deg 90deg,
+    #f2d56b 90deg 150deg,
+    #f5a35c 150deg 220deg,
+    #d9534f 220deg 360deg
+  );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 3px solid #555;
+}
+
+.gauge-inner {
+  width: 120px;
+  height: 120px;
+
+  border-radius: 50%;
+
+  background: #f3efe4;
+  border: 2px solid #555;
+}
+
+.prediction-display {
+  width: 180px;
+  padding: 20px;
+
+  background: #2d2d2d;
+  color: #ffb36b;
+
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+
+  border: 3px solid #555;
+  border-radius: 8px;
+}
+
+.prediction-label {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.high-risk {
+  color: #d9534f;
+}
