@@ -6,10 +6,10 @@ import pandas as pd
 app = Flask(__name__)
 CORS(app)
 
-# Load model
+
 model = joblib.load("../models/priority_model.pkl")
 
-# Load encoders
+
 event_encoder = joblib.load("../models/event_encoder.pkl")
 zone_encoder = joblib.load("../models/zone_encoder.pkl")
 corridor_encoder = joblib.load("../models/corridor_encoder.pkl")
