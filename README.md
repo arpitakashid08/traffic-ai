@@ -1,70 +1,186 @@
-# Getting Started with Create React App
+# 🚦 Traffic-AI: Event Traffic Forecasting & Resource Optimization
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Traffic-AI is an AI-powered platform designed to help **Traffic Police Departments** and **Event Organizers** manage large-scale public events more effectively.
 
-## Available Scripts
+The system predicts traffic impact, estimates required resources, and enables proactive coordination between event organizers and traffic authorities.
 
-In the project directory, you can run:
+## 🌐 Live Demo
 
-### `npm start`
+Deployment:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://traffic-ai-silk.vercel.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🎯 Problem Statement
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Large public events such as concerts, marathons, political gatherings, sports matches, and conferences often create traffic congestion and resource management challenges.
 
-### `npm run build`
+Traffic authorities frequently receive event information too late, leading to:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Traffic jams
+* Insufficient police deployment
+* Poor diversion planning
+* Public inconvenience
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Traffic-AI aims to bridge the communication gap between event organizers and traffic police.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 👥 User Roles
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 👮 Traffic Police
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Traffic officers can:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Register officer information
+* View upcoming events
+* Analyze event impact
+* Predict traffic priority levels
+* View resource recommendations
+* Monitor traffic analytics
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🎪 Event Organizer
 
-## Learn More
+Event organizers can:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Register organizer details
+* Create and submit new events
+* Enter event location and expected crowd size
+* Analyze expected traffic impact
+* Coordinate with traffic authorities
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## ✨ Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🚦 Traffic Priority Prediction
 
-### Analyzing the Bundle Size
+Predicts event priority levels based on:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* Event type
+* Zone
+* Corridor
+* Road closure requirements
 
-### Making a Progressive Web App
+### 👮 Resource Allocation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Provides recommendations such as:
 
-### Advanced Configuration
+* Number of officers required
+* Barricades required
+* Diversion plans
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 🗺 Interactive Traffic Map
 
-### Deployment
+* Live map visualization
+* Corridor monitoring
+* Geographic event awareness
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 📊 Analytics Dashboard
 
-### `npm run build` fails to minify
+* Event statistics
+* Priority distribution
+* Resource insights
+* Traffic monitoring metrics
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 📝 Event Registration Workflow
+
+Event organizers can register events directly within the platform.
+
+Future versions can automatically notify nearby traffic departments when a new event is registered.
+
+---
+
+## ⚠ Policy Recommendation
+
+To ensure public safety and proper traffic planning, event organizers should register events through the platform before conducting large-scale public gatherings.
+
+Failure to provide advance event information may lead to administrative penalties as determined by local traffic authorities and regulations.
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+* React.js
+* React Router
+* Recharts
+* React Leaflet
+* CSS
+
+### Backend
+
+* Python
+* Flask
+* Machine Learning Model
+
+---
+
+## 🚀 Running the Frontend
+
+Open a terminal:
+
+```bash
+cd traffic-frontend
+npm install
+npm start
+```
+
+Frontend runs on:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## 🚀 Running the Backend
+
+Open a separate terminal:
+
+```bash
+cd backend
+python3 app.py
+```
+
+Backend API runs locally and serves prediction requests.
+
+---
+
+## 📂 Project Structure
+
+```text
+traffic-ai/
+│
+├── backend/
+│   ├── app.py
+│   ├── model_loader.py
+│   └── utils.py
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   └── styles/
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## 🔮 Future Enhancements
+
+* Real-time police notifications
+* Event approval workflow
+* Live traffic feeds integration
+* SMS and email alerts
+* AI-based diversion planning
+* Historical traffic analysis
+* Multi-city deployment
+
+---
+
+
